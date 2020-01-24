@@ -1,0 +1,67 @@
+body{
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+ul li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+
+}
+
+ul li:first-child{
+    background-color:#c0c8dc;
+}
+.Political{
+    background: #fd7792;
+}
+
+.party{
+    background: #8186d5;
+}
+.Non-Political{
+    background: #3f4d71;
+}
+
+.btn-custom{
+    background: #212529!important;
+    color: white;
+    outline: none;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.btn-custom:focus {
+    color: white!important;
+}
+
+#input-msg{
+    outline: none;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  
+}
+
+  
+ul li span{
+    float: right;
+    color: white;
+    padding: 5px 8px 5px 8px;
+    border-radius: 6px;
+    margin-left:3px;
+}
